@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONTHI24 - Hệ thống học tập</title>
+    <title>Ôn Thi Toán Lý 24h - Hệ thống học tập trực tuyến</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -133,7 +132,7 @@
         
         <div class="nav-menu" id="mobileNavMenu">
             <div class="mobile-close-btn" onclick="closeMobileMenu(event)"><i class="fa fa-times"></i></div>
-            <div class="nav-item-wrap"><a href="https://onthi24.com" class="nav-item" id="menu-home">Trang chủ</a></div>
+            <div class="nav-item-wrap"><a href="/" class="nav-item" id="menu-home">Trang chủ</a></div>
             <div class="nav-item-wrap" onclick="handleMobileClick(this, event)">
                 <a href="#" class="nav-item" id="menu-thpt">Toán THPT <i class="fa fa-chevron-down" style="font-size: 11px;"></i></a>
                 <div class="dropdown-content">
@@ -165,8 +164,9 @@
 
     <div class="header-main">
         <h1 class="main-title">Trang chủ</h1>
-        <form class="search-box" action="https://www.google.com/search" method="GET">
-            <input type="text" name="q" placeholder="Tìm qua Google...">
+        <form class="search-box" action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="text" name="q" placeholder="Tìm kiếm trên onthitoanly24h.com...">
+            <input type="hidden" name="as_sitesearch" value="onthitoanly24h.com">
         </form>
     </div>
 
@@ -196,10 +196,10 @@
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdX0G3eI0fttdhqXR_YAexVfp2LlgFBJTWZUpS4gGjICfkZ_Q/viewform" target="_blank" style="text-decoration: none;">
         <button class="btn-register">ĐĂNG KÍ TƯ VẤN</button>
     </a>
-    <a href="https://sites.google.com/view/namins2" class="link-detail" style="color: #78281f;">GIỚI THIỆU VỀ ONTHI24.COM</a>
+    <a href="https://sites.google.com/view/namins2" class="link-detail" style="color: #78281f;">GIỚI THIỆU VỀ ONTHITOANLY24H.COM</a>
 </div>
 
-    <div class="copyright">© 2026 ONTHI24</div>
+    <div class="copyright">© 2026 ONTHITOANLY24H.COM</div>
 
     <script>
         function openMobileMenu(e) { e.stopPropagation(); document.getElementById('mobileNavMenu').classList.add('open'); }
